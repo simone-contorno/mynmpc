@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mynmpc</name>
+  <version>1.0.0</version>
+  <description>Nonlinear Model Predictive Control for Self-Driving Vehicles based on 
+  Local Sequential Quadratic Programming by recursively calling ProxQP solver.</description>
+  <maintainer email="simone.contorno@outlook.it">Simone Contorno</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>Eigen3</depend>
+  <depend>proxsuite</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
