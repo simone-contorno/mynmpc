@@ -18,6 +18,7 @@
 #include <std_msgs/msg/float32_multi_array.hpp>
 #include <std_msgs/msg/float64.hpp>
 #include <std_msgs/msg/bool.hpp>
+#include <tf2_msgs/msg/tf_message.hpp>
 
 /* Other libraries */
 #include <iostream>
