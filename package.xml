@@ -2,7 +2,8 @@
 <package format="2">
   <name>mynmpc</name>
   <version>1.0.0</version>
-  <description>Nonlinear Model Predictive Control for Self-Driving Vehicles based on 
+  <description>Control in a virtual environment to test the
+  Nonlinear Model Predictive Control for Self-Driving Vehicles based on 
   Local Sequential Quadratic Programming by recursively calling ProxQP solver.</description>
   <maintainer email="simone.contorno@outlook.it">Simone Contorno</maintainer>
   <license>MIT</license>
@@ -12,6 +13,11 @@
   <depend>rclcpp</depend>
   <depend>Eigen3</depend>
   <depend>proxsuite</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>urdf</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
