@@ -104,8 +104,8 @@ ENDFUNCTION
 
 Other information:
 <ul>
-    <li><a href="">Mathematical (and other) details</a>.</li>
-    <li><a href="">Doxygen documentation</a>.</li>
+    <li><a href="TODO">Mathematical (and other) details</a>.</li>
+    <li><a href="https://simone-contorno.github.io/mynmpc/">Doxygen documentation</a>.</li>
 </ul>
 
 <a name="pre"></a>
@@ -134,7 +134,8 @@ Other information:
 <a name="execution"></a>
 # Execution
 
-For trying the program you need to switch to <a href="">simulation</a> branch and follow the instructions to run the controller example.
+For trying the program you need to switch to the <a href="https://github.com/simone-contorno/mynmpc/tree/simulation">simulation</a> branch and follow the instructions to run the controller example. <br>
+Switching to the <a href="https://github.com/simone-contorno/mynmpc/tree/rosbot">rosbot</a> branch you can also have a test for the <a href="https://husarion.com/manuals/rosbot/">ROSbot 2R</a> by Husarion.
 
 <a name="improve"></a>
 # Improvements
