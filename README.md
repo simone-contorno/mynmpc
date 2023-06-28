@@ -134,7 +134,21 @@ Other information:
 <a name="execution"></a>
 # Execution
 
-For trying the program you need to switch to the <a href="https://github.com/simone-contorno/mynmpc/tree/simulation">simulation</a> branch and follow the instructions to run the controller example. <br>
+To try the program you first need to install a visualizer provided by the <a href="https://github.com/simone-contorno/mobro_sim">mobro_sim</a> package based on the <a href="https://github.com/oKermorgant/simple_launch">simple_launch</a> and <a href="https://github.com/oKermorgant/map_simulator">map_simulator</a> ones:<br>
+
+<ol>
+    <li>Go into the src folder of your ROS 2 workspace.</li> 
+    <li>Download these repositories:
+    <pre><code>git clone https://github.com/oKermorgant/simple_launch</code></pre>
+    <pre><code>git clone https://github.com/oKermorgant/map_simulator</code></pre>
+    <pre><code>git clone https://github.com/simone-contorno/mobile_robot_simulator</code></pre>
+    </li>
+    <li>Go into the root folder of your ROS 2 workspace and build them: 
+    <pre><code>colcon build --packages-select simple_launch map_simulator mobro_sim</code></pre>
+    </li>
+</ol>
+
+Then, you need to switch to the <a href="https://github.com/simone-contorno/mynmpc/tree/simulation">simulation</a> branch and follow the instructions to run the controller example. <br>
 Switching to the <a href="https://github.com/simone-contorno/mynmpc/tree/rosbot">rosbot</a> branch you can also have a test for the <a href="https://husarion.com/manuals/rosbot/">ROSbot 2R</a> by Husarion.
 
 <a name="improve"></a>
