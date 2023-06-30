@@ -112,7 +112,7 @@ int main(int argc, char** argv)
     mpc = std::make_shared<MPC_Unicycle>(model);
 
     // Initialize the MPC
-    mpc->init(node, model); 
+    mpc->init(model); 
 
     // If the argument is passed, activate or deactivate the obstacle avoidance
     if (argc > 1) 
