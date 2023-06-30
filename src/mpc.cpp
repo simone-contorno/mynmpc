@@ -2,10 +2,9 @@
 
 /*! 
  * Inizialize the Model Predictive Control. 
- * @param node node pointer.
  * @param model model pointer.
  */
-void MPC::init(rclcpp::Node::SharedPtr node, std::shared_ptr<Model> model)
+void MPC::init(std::shared_ptr<Model> model)
 {
     /* Model */
     this->model = model;
