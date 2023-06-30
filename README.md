@@ -81,4 +81,4 @@ After having connected to your ROSbot through the same wifi connection, open 4 d
     This will map all the ROS 1 topics to ROS 2.
     </li>
 </ul>
-If you have doubts or are still encountering problems, try to consult <a href="https://github.com/mmatteo-hub/rosbot_ws">this</a> guide.
+If you have doubts or are still encountering problems, try to consult <a href="https://github.com/mmatteo-hub/rosbot2r_ws">this</a> guide.
