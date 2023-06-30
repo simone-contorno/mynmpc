@@ -206,7 +206,7 @@ int main(int argc, char** argv)
     }
     
     // Initialize the MPC
-    mpc->init(node, model); 
+    mpc->init(model); 
     
     // Print Model and MPC informations
     printInfo(mpc,model);

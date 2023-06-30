@@ -70,7 +70,7 @@ int main(int argc, char** argv)
     /* MPC */
     auto mpc =  std::make_shared<MPC>();
     mpc = std::make_shared<MPC_Obs>(model);
-    mpc->init(node, model); 
+    mpc->init(model); 
 
     /********************************************************************************/
     /********************************* Controller ***********************************/
