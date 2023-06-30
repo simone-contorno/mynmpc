@@ -15,7 +15,7 @@ public:
 
     /* Initialization */
 
-    void init(rclcpp::Node::SharedPtr node, std::shared_ptr<Model> model);
+    void init(std::shared_ptr<Model> model);
     
     /* ProxQP configuration */
 
