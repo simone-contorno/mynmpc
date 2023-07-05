@@ -23,6 +23,8 @@ public:
         MatrixXd S = MatrixXd::Identity(model->getN(),model->getN());   // final state
         MatrixXd W = MatrixXd::Identity(1,1);                           // slack variable
 
+        Q(3,3) = 0.0;
+        S(3,3) = 0.0;
         W *= 1000;
 
         setQ(Q);
