@@ -160,7 +160,7 @@ A discussion about the possible improvements can be read <a href="TODO">here</a>
 # Conclusion
 I hope that this work can be useful to your purposes, if you have any question feel free to ask. <br>
 Videos of the given examples can be found on <a href="https://www.youtube.com/playlist?list=PLXuiUDYHp72dNS846t7llz_p0f-Nf_IVd">my YouTube channel</a>. <br>
-For citing this work please use the following BibTeX:
+To cite this work please use the following BibTeX:
 
 <pre><code>@misc{MyNMPC,
     TITLE       = {MyNMPC: A Nonlinear Model Predictive Control for Self-Driving Vehicles},
