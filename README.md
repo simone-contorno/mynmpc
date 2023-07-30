@@ -19,11 +19,11 @@ Needed prerequisites to correctly install.<br>
 
 ### Installation
 How to install.<br>
-[Go to Installation](#installation)
+[Go to Installation](#install)
 
 ### Execution
-How to execute example.<br>
-[Go to Execution](#execution)
+How to execute the examples.<br>
+[Go to Execution](#exec)
 
 ### Improvements
 Possible improvements.<br>
@@ -31,7 +31,7 @@ Possible improvements.<br>
 
 ### Conclusion
 Brief conclusion and BibTeX for citing.<br>
-[Go to Conclusion](#conclusion)
+[Go to Conclusion](#con)
 
 <a name="intro"></a>
 # Introduction
@@ -93,8 +93,8 @@ ENDFUNCTION
     UPDATE state and control 
     DO SQP
         SOLVE ProxQP sub-problem
-        UPDATE state, control and slack variable 
-    UNTIL problem solved || max. SQP iterations reached
+        UPDATE state, control, and slack variable 
+    UNTIL problem is solved || max. SQP iterations reached
 
     UPDATE first control input 
 
@@ -118,7 +118,7 @@ Other information:
     <li><a href="https://github.com/Simple-Robotics/proxsuite">Install</a> the ProxQP solver.<br></li>
 </ol>
 
-<a name="installation"></a>
+<a name="install"></a>
 # Installation 
 
 <ol>
@@ -131,7 +131,7 @@ Other information:
     </li>
 </ol>
 
-<a name="execution"></a>
+<a name="exec"></a>
 # Execution
 
 To try the program you first need to install a visualizer provided by the <a href="https://github.com/simone-contorno/mobro_sim">mobro_sim</a> package based on the <a href="https://github.com/oKermorgant/simple_launch">simple_launch</a> and <a href="https://github.com/oKermorgant/map_simulator">map_simulator</a> ones:<br>
@@ -156,9 +156,9 @@ Switching to the <a href="https://github.com/simone-contorno/mynmpc/tree/rosbot"
 
 A discussion about the possible improvements can be read <a href="TODO">here</a> in Section "TODO".
 
-<a name="conclusion"></a>
+<a name="conc"></a>
 # Conclusion
-I hope that this work can be useful to your purposes, if you have any question feel free to ask. <br>
+I hope that this work can be useful to your purposes, if you have any questions feel free to ask. <br>
 Videos of the given examples can be found on <a href="https://www.youtube.com/playlist?list=PLXuiUDYHp72dNS846t7llz_p0f-Nf_IVd">my YouTube channel</a>. <br>
 To cite this work please use the following BibTeX:
 
