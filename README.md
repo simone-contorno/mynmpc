@@ -156,7 +156,7 @@ Switching to the <a href="https://github.com/simone-contorno/mynmpc/tree/rosbot"
 
 A discussion about the possible improvements can be read <a href="TODO">here</a> in Section "TODO".
 
-<a name="conc"></a>
+<a name="con"></a>
 # Conclusion
 I hope that this work can be useful to your purposes, if you have any questions feel free to ask. <br>
 Videos of the given examples can be found on <a href="https://www.youtube.com/playlist?list=PLXuiUDYHp72dNS846t7llz_p0f-Nf_IVd">my YouTube channel</a>. <br>
