@@ -104,7 +104,7 @@ ENDFUNCTION
 
 Other information:
 <ul>
-    <li><a href="TODO">Mathematical (and other) details</a>.</li>
+    <li><a href="https://github.com/simone-contorno/mynmpc/blob/main/CONTORNO_Simone_Thesis.pdf">Mathematical (and other) details</a>.</li>
     <li><a href="https://simone-contorno.github.io/mynmpc/">Doxygen documentation</a>.</li>
 </ul>
 
@@ -154,7 +154,7 @@ Switching to the <a href="https://github.com/simone-contorno/mynmpc/tree/rosbot"
 <a name="improve"></a>
 # Improvements
 
-A discussion about the possible improvements can be read <a href="TODO">here</a> in Section "TODO".
+A discussion about the possible improvements can be read <a href="https://github.com/simone-contorno/mynmpc/blob/main/CONTORNO_Simone_Thesis.pdf">here</a> in Section "Possible future works".
 
 <a name="con"></a>
 # Conclusion
