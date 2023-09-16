@@ -141,7 +141,7 @@ To try the program you first need to install a visualizer provided by the <a hre
     <li>Download these repositories:
     <pre><code>git clone https://github.com/oKermorgant/simple_launch</code></pre>
     <pre><code>git clone https://github.com/oKermorgant/map_simulator</code></pre>
-    <pre><code>git clone https://github.com/simone-contorno/mobile_robot_simulator</code></pre>
+    <pre><code>git clone https://github.com/simone-contorno/mobro_sim</code></pre>
     </li>
     <li>Go into the root folder of your ROS 2 workspace and build them: 
     <pre><code>colcon build --packages-select simple_launch map_simulator mobro_sim</code></pre>
